@@ -3,6 +3,9 @@
 
 Folder ending with 33 class contains models which only work for classification of 33 cancer tumors. In order to see the impact of Normal tissues in classification, the codes that are in 34 class folder need to be run. Hyperparameter tuning folder is showing grid search result of some of the hyperparameters for 1D-CNN and Vanilla models. All codes are written in Keras with a simple structure which helps reader understand the modeling stage easier. 
 
+[Link to the data files](https://drive.google.com/open?id=1-Ib9jRNlfe0kqkYRdoBp3Q5aj9Q7EN3U)
+[Link to gene markers excel file](https://drive.google.com/open?id=1tKkoqBHw1HTxtKODjaCYRpQVDcmYgRAl)
+
 ## Background
 Precise prediction of cancer types is vital for cancer diagnosis and therapy. Important cancer marker genes can be inferred through predictive model. Several studies have attempted to build machine learning models for this task however none has taken into consideration the tissue of origin effects that can potentially bias the identification of cancer markers.
 ## Results
