@@ -66,7 +66,7 @@ np.random.seed(seed)
 
 
 input_Xs = X_cancer_samples_mat
-y_s = train_labels
+y_s = project_ids_new[remain_cancer_ids_ind]
 
 
 kfold = StratifiedKFold(n_splits=5, shuffle=True, random_state=seed)
